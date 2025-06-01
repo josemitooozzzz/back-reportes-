@@ -1,0 +1,22 @@
+{
+    "name": "back-end-reportesintegrador",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./src/index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.5.0",
+        "express": "^5.1.0",
+        "pdfmake": "^0.2.20",
+        "pg": "^8.16.0",
+        "puppeteer": "^24.9.0"
+    }
+}
